@@ -4,7 +4,7 @@
 }
 .spinMe {
   /* Add the animation for spin on the line below  */
-
+animation: 2
 }
 #progressbar {
   background-color: black;
