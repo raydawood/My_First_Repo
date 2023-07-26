@@ -100,61 +100,93 @@ li a:hover {
 }
 
 .footer-container {
-  background-color:#444B57;
-  padding-bottom: 4rem; 
+  padding-bottom: 6rem; 
+  flex-wrap: wrap;
+  background-color: #444B57;
 }   
 
 .footer {
   width: 80%;
   height: 5vh;
-  background-color: #444B57;
-  color: #444B57;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
   flex-shrink: 0;
   margin-top: 2rem;
+  color: #F4E7D3;
+  background-color: #444B57;
 }
 
 .footer-1 {
-  display: flex;
   flex-direction: row;
-  margin-right: 12rem;
-  background-color: #444B57;
-  text-align: center;
   word-spacing: 50%;
-  text-align: left;
+  margin-bottom: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 16rem;
+  background-color: #444B57;
+  color: #F4E7D3;
+  word-spacing: 1rem;
 }
 
 .footer-heading h4 {
   margin-bottom: 2rem;
+  background-color: #444B57;
 }
 
 .footer-2 {
-  color: #444B57;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  background-color: #444B57;
   text-align: center;
+  color: #F4E7D3;
+  background-color: #444B57;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.footer-2 h4 {
+  text-decoration: underline;
+  color: #F4E7D3;
+  text-align: center;
+  background-color: #444B57;
+}
+
+.footer-2 a {
+  text-align: center;
+  color: #F4E7D3;
+  background-color: #444B57;
 }
 
 .footer-heading a:hover {
-  color: #444B57;
+  color: B4C6D5;
   transition: 0.3s ease-out;
 }
 
 .footer-3 {
-  color: #444B57;
-  text-decoration: none;
-  background-color: #444B57;
+  color: #F4E7D3;
+  text-decoration: underline;
   text-align: right;
+  background-color: #444B57;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10rem;
+  margin-right: 50px;
 }
 
 .footer-3 h4 {
-  text-align: right;
+  margin-left: 10rem;
+  color: #F4E7D3;
+  text-decoration: underline;
+  background-color: #444B57;
+  word-spacing: 6%;
 }
 
 .footer-3 a {
-  text-align: right;
+  color: #F4E7D3;
+  background-color: #444B57;
+  text-align: center;
 }
